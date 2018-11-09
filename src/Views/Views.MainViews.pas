@@ -41,11 +41,17 @@ type
     BindingsList: TBindingsList;
     LinkControlToField1: TLinkControlToField;
     LinkControlToField2: TLinkControlToField;
+    /// <summary>Getボタンクリック。</summary>
+    /// <param name="Sender">通知元のオブジェクト。</param>
     procedure GetContentButtonClick(Sender: TObject);
   private
+    /// <summary>ViewModel変数。</summary>
     ViewModel: TMainViewModel;
   public
+    /// <summary>コンストラクター。</summary>
+    /// <param name="AOwner">オーナーコンポーネント。</param>
     constructor Create(AOwner: TComponent); override;
+    /// <summary>デストラクター。</summary>
     destructor Destroy; override;
   end;
 

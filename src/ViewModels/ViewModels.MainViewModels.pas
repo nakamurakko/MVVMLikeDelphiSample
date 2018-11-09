@@ -14,6 +14,9 @@ type
   /// <summary>サンプルViewModelクラス。</summary>
   TMainViewModel = class(TDataModule)
     BindSource: TPrototypeBindSource;
+    /// <summary>CreateAdapterイベント</summary>
+    /// <param name="Sender">通知元のオブジェクト。</param>
+    /// <param name="ABindSourceAdapter">Adapter。</param>
     procedure BindSourceCreateAdapter(Sender: TObject; var ABindSourceAdapter: TBindSourceAdapter);
   private
     /// <summary>Web情報。</summary>
