@@ -1,0 +1,101 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 313
+  ClientWidth = 537
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object HeaderLayout: TLayout
+    Align = Top
+    Padding.Left = 2.000000000000000000
+    Padding.Top = 2.000000000000000000
+    Padding.Right = 2.000000000000000000
+    Padding.Bottom = 2.000000000000000000
+    Size.Width = 537.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object URLEdit: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Client
+      TabOrder = 0
+      TextSettings.Font.Family = 'Meiryo UI'
+      Margins.Left = 2.000000000000000000
+      Margins.Top = 2.000000000000000000
+      Margins.Right = 2.000000000000000000
+      Margins.Bottom = 2.000000000000000000
+      Size.Width = 464.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Size, Style, FontColor]
+    end
+    object GetContentButton: TButton
+      Align = Right
+      StyledSettings = [Size, Style, FontColor]
+      Margins.Left = 2.000000000000000000
+      Margins.Top = 2.000000000000000000
+      Margins.Right = 2.000000000000000000
+      Margins.Bottom = 2.000000000000000000
+      Position.X = 472.000000000000000000
+      Position.Y = 4.000000000000000000
+      Size.Width = 61.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Get'
+      TextSettings.Font.Family = 'Meiryo UI'
+      OnClick = GetContentButtonClick
+    end
+  end
+  object ClientLayout: TLayout
+    Align = Client
+    Padding.Left = 2.000000000000000000
+    Padding.Top = 2.000000000000000000
+    Padding.Right = 2.000000000000000000
+    Padding.Bottom = 2.000000000000000000
+    Size.Width = 537.000000000000000000
+    Size.Height = 280.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object ContntMemo: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      StyledSettings = [Size, Style, FontColor]
+      TextSettings.Font.Family = 'Meiryo UI'
+      Align = Client
+      Margins.Left = 2.000000000000000000
+      Margins.Top = 2.000000000000000000
+      Margins.Right = 2.000000000000000000
+      Margins.Bottom = 2.000000000000000000
+      Size.Width = 529.000000000000000000
+      Size.Height = 272.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Viewport.Width = 525.000000000000000000
+      Viewport.Height = 268.000000000000000000
+    end
+  end
+  object BindingsList: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 208
+    Top = 93
+    object LinkControlToField1: TLinkControlToField
+      Category = #12463#12452#12483#12463' '#12496#12452#12531#12487#12451#12531#12464
+      DataSource = MainViewModel.BindSource
+      FieldName = 'URL'
+      Control = URLEdit
+      Track = False
+    end
+    object LinkControlToField2: TLinkControlToField
+      Category = #12463#12452#12483#12463' '#12496#12452#12531#12487#12451#12531#12464
+      DataSource = MainViewModel.BindSource
+      FieldName = 'Content'
+      Control = ContntMemo
+      Track = False
+    end
+  end
+end
