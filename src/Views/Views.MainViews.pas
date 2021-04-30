@@ -21,6 +21,7 @@ uses
   System.Math.Vectors,
   FMX.ScrollBox,
   FMX.Memo,
+  FMX.Memo.Types,
   FMX.Controls3D,
   FMX.Layers3D,
   System.Rtti,
