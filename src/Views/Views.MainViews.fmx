@@ -2,8 +2,8 @@ object MainForm: TMainForm
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 313
-  ClientWidth = 537
+  ClientHeight = 314
+  ClientWidth = 538
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
@@ -14,7 +14,7 @@ object MainForm: TMainForm
     Padding.Top = 2.000000000000000000
     Padding.Right = 2.000000000000000000
     Padding.Bottom = 2.000000000000000000
-    Size.Width = 537.000000000000000000
+    Size.Width = 538.000000000000000000
     Size.Height = 33.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 1
@@ -27,7 +27,7 @@ object MainForm: TMainForm
       Margins.Top = 2.000000000000000000
       Margins.Right = 2.000000000000000000
       Margins.Bottom = 2.000000000000000000
-      Size.Width = 464.000000000000000000
+      Size.Width = 465.000000000000000000
       Size.Height = 25.000000000000000000
       Size.PlatformDefault = False
       StyledSettings = [Size, Style, FontColor]
@@ -39,7 +39,7 @@ object MainForm: TMainForm
       Margins.Top = 2.000000000000000000
       Margins.Right = 2.000000000000000000
       Margins.Bottom = 2.000000000000000000
-      Position.X = 472.000000000000000000
+      Position.X = 473.000000000000000000
       Position.Y = 4.000000000000000000
       Size.Width = 61.000000000000000000
       Size.Height = 25.000000000000000000
@@ -56,8 +56,8 @@ object MainForm: TMainForm
     Padding.Top = 2.000000000000000000
     Padding.Right = 2.000000000000000000
     Padding.Bottom = 2.000000000000000000
-    Size.Width = 537.000000000000000000
-    Size.Height = 280.000000000000000000
+    Size.Width = 538.000000000000000000
+    Size.Height = 281.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 2
     object ContntMemo: TMemo
@@ -70,12 +70,12 @@ object MainForm: TMainForm
       Margins.Top = 2.000000000000000000
       Margins.Right = 2.000000000000000000
       Margins.Bottom = 2.000000000000000000
-      Size.Width = 529.000000000000000000
-      Size.Height = 272.000000000000000000
+      Size.Width = 530.000000000000000000
+      Size.Height = 273.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 0
-      Viewport.Width = 525.000000000000000000
-      Viewport.Height = 268.000000000000000000
+      Viewport.Width = 526.000000000000000000
+      Viewport.Height = 269.000000000000000000
     end
   end
   object BindingsList: TBindingsList
