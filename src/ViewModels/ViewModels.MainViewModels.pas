@@ -40,7 +40,7 @@ procedure TMainViewModel.BindSourceCreateAdapter(Sender: TObject; var ABindSourc
 begin
   // ①データ保持用インスタンスを生成。
   WebInfo := TWebInfo.Create;
-  WebInfo.URL := 'https://www.nakamurakko.jp';
+  WebInfo.URL := 'https://www.nakamurakko.net';
   WebInfo.Content := '';
 
   // ②TObjectBindSourceAdapterのインスタンスを生成。

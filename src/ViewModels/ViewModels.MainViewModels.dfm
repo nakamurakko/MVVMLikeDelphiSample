@@ -1,7 +1,7 @@
 object MainViewModel: TMainViewModel
-  OldCreateOrder = False
   Height = 300
   Width = 405
+  PixelsPerInch = 96
   object BindSource: TPrototypeBindSource
     AutoActivate = True
     AutoEdit = False
